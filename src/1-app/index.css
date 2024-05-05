@@ -1,0 +1,33 @@
+/*
+  Fonts
+*/
+
+@font-face {
+  font-family: 'FixelDisplay';
+  src: url('../6-shared/assets/fonts/fixel/FixelDisplay-Regular.woff2') format('woff2'),
+       url('../6-shared/assets/fonts/fixel/FixelDisplay-Black.woff2') format('woff2'),
+       url('../6-shared/assets/fonts/fixel/FixelDisplay-Bold.woff2') format('woff2'),
+       url('../6-shared/assets/fonts/fixel/FixelDisplay-ExtraBold.woff2') format('woff2'),
+       url('../6-shared/assets/fonts/fixel/FixelDisplay-ExtraLight.woff2') format('woff2'),
+       url('../6-shared/assets/fonts/fixel/FixelDisplay-Light.woff2') format('woff2'),
+       url('../6-shared/assets/fonts/fixel/FixelDisplay-Medium.woff2') format('woff2'),
+       url('../6-shared/assets/fonts/fixel/FixelDisplay-SemiBold.woff2') format('woff2'),
+       url('../6-shared/assets/fonts/fixel/FixelDisplay-Thin.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'FixelText';
+  src: url('../6-shared/assets/fonts/fixel/FixelText-Regular.woff2') format('woff2'),
+       url('../6-shared/assets/fonts/fixel/FixelText-Black.woff2') format('woff2'),
+       url('../6-shared/assets/fonts/fixel/FixelText-Bold.woff2') format('woff2'),
+       url('../6-shared/assets/fonts/fixel/FixelText-ExtraBold.woff2') format('woff2'),
+       url('../6-shared/assets/fonts/fixel/FixelText-ExtraLight.woff2') format('woff2'),
+       url('../6-shared/assets/fonts/fixel/FixelText-Light.woff2') format('woff2'),
+       url('../6-shared/assets/fonts/fixel/FixelText-Medium.woff2') format('woff2'),
+       url('../6-shared/assets/fonts/fixel/FixelText-SemiBold.woff2') format('woff2'),
+       url('../6-shared/assets/fonts/fixel/FixelText-Thin.woff2') format('woff');
+}
+
+body, html { 
+  font-family: 'FixelText', sans-serif;
+}
